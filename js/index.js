@@ -1,7 +1,8 @@
 lista_links =
 [
     {logo: "imagens/logo_github.png", nome: "GITHUB", link: "https://github.com/GuiK18"},
-    {logo: "imagens/logo_linkedin.png", nome: "LINKEDIN", link: "https://www.linkedin.com/in/guilherme-kavalco-15831434a/"}
+    {logo: "imagens/logo_linkedin.png", nome: "LINKEDIN", link: "https://www.linkedin.com/in/guilherme-kavalco-15831434a/"},
+    {logo: "imagens/mais.png", nome: "MAIS INFORMAÇÕES", link: ""}
 ];
 
 
@@ -18,3 +19,4 @@ for(var i = 0; i < lista_links.length; i++){
 
     document.getElementById('informacoes').innerHTML += html;
 }
+
